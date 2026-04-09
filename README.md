@@ -25,7 +25,7 @@ Git • GitHub • Docker
 
 ## 💼 Real Projects
 
-- 🌐 **Elyra** – Modern landing pages for small businesses  
+- 🌐 **Elyra** – Modern landing pages for small businesses (https://elyra-b1op.vercel.app/)
 - 💆 **Espaço Lazuli** – Professional website focused on UI/UX and conversion  
 - 🦶 **Lita Podóloga** – Business website designed for client presence and lead generation  
 
