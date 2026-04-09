@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Léo (Leonard)
+# 👋 Hi, I'm Léo (Leonardo)
 
 💻 18-year-old Brazilian developer, finishing a technical course in programming  
 🚀 Focused on building real-world projects and exploring cybersecurity  
@@ -7,12 +7,20 @@
 
 ## 🔧 Tech Stack
 
-- **Languages:** Python, JavaScript, HTML, CSS  
-- **Frontend:** React, Tailwind, Framer Motion  
-- **Backend:** Node.js, FastAPI  
-- **Cybersecurity:** Kali Linux, Nmap, Netcat, OSINT  
-- **Tools:** Git, GitHub, Docker  
+### 💻 Languages
+Python • JavaScript • Java • Dart • PHP • SQL  
 
+### 🎨 Frontend
+React • HTML • CSS • Tailwind • Framer Motion  
+
+### ⚙️ Backend
+Node.js • FastAPI • PHP  
+
+### 🛡️ Cybersecurity
+Kali Linux • Nmap • Netcat • OSINT  
+
+### 🧰 Tools
+Git • GitHub • Docker  
 ---
 
 ## 💼 Real Projects
