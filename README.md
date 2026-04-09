@@ -1,16 +1,49 @@
-## Hi there 👋
+# 👋 Hi, I'm Léo (Leonard)
 
-<!--
-**Leonard0MF/Leonard0MF** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 18-year-old Brazilian developer, finishing a technical course in programming  
+🚀 Focused on building real-world projects and exploring cybersecurity  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Tech Stack
+
+- **Languages:** Python, JavaScript, HTML, CSS  
+- **Frontend:** React, Tailwind, Framer Motion  
+- **Backend:** Node.js, FastAPI  
+- **Cybersecurity:** Kali Linux, Nmap, Netcat, OSINT  
+- **Tools:** Git, GitHub, Docker  
+
+---
+
+## 💼 Real Projects
+
+- 🌐 **Elyra** – Modern landing pages for small businesses  
+- 💆 **Espaço Lazuli** – Professional website focused on UI/UX and conversion  
+- 🦶 **Lita Podóloga** – Business website designed for client presence and lead generation  
+
+> Developed under my own studio, focusing on performance, design and real client needs.
+
+---
+
+## 🧪 Personal Projects
+
+- 🛡️ Mini Honeypot (Python) – Learning network security in practice  
+- 🔍 OSINT Tool – Automating public data analysis  
+
+---
+
+## Current Focus
+
+- Improving frontend performance and design  
+- Deepening knowledge in cybersecurity  
+- Building scalable and real-world projects  
+
+---
+
+## 📫 Contact
+
+- GitHub: https://github.com/Leonard0MF  
+
+---
+
+> “I learn by building, testing, and breaking things.”
