@@ -51,7 +51,7 @@ Git • GitHub • Docker
 ## 📫 Contact
 
 - GitHub: https://github.com/Leonard0MF  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Leonard0MF&show_icons=true&theme=dark)
+
 ---
 
 > “I learn by building, testing, and breaking things.”
