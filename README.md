@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Léo (Leonardo)
 
-💻 18-year-old Brazilian developer, finishing a technical course in programming  
-🚀 Focused on building real-world projects and exploring cybersecurity  
+💻 18-year-old Brazilian developer, finishing a technical course in programming
+🚀 Building real-world projects and exploring cybersecurity
 
 ---
 
