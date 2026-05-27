@@ -64,7 +64,7 @@
 > ⚡ Developed under my own studio, focusing on high performance, modern UI/UX, and real business outcomes.
 
 *   🌐 **Elyra** – Modern landing pages and ecosystem for small businesses. Built with Next.js, React, and TypeScript.
-    *   [🔗 Live Demo](https://elyra-b1op.vercel.app/) • [💻 View Organization](https://github.com/ElyraStudio)
+    *   [🔗 Live Demo](https://elyras.vercel.app/) • [💻 View Organization](https://github.com/ElyraStudio)
 *   💆 **Espaço Lazuli** – Professional, high-conversion web platform focused on UI/UX and client onboarding.
     *   [🔗 Live Demo](https://espaco-lazuli.vercel.app/) • [💻 View Organization](https://github.com/ElyraStudio)
 *   🦶 **Lita Podóloga** – Production-ready business website designed for client presence and automated lead generation.
