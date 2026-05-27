@@ -80,12 +80,20 @@ Passionate about high-performance frontends and exploring the offensive side of 
 
 ---
 
-## 📊 GitHub Stats
+# GitHub Analytics
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Leonard0MF&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonard0MF&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+<div align="center">
+  
+<br/>
+<br/>
+
+<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Leonard0MF&bg_color=00000000&color=c9d1d9&line=8b949e&point=ffffff&hide_border=true" />
+
+<br/>
+
+<img width="800" src="https://streak-stats.demolab.com?user=Leonard0MF&theme=github-dark-blue&hide_border=true&background=00000000&ring=8b949e&fire=ffffff&currStreakLabel=c9d1d9" />
+
+</div>
 
 ---
 
@@ -98,10 +106,19 @@ Passionate about high-performance frontends and exploring the offensive side of 
 ---
 
 ## 📬 Contact
+<div align="center">
 
-<p>
-  <a href="https://github.com/Leonard0MF"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/leonardo-machmann-francisco-898902399/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</p>
+<a href="https://github.com/Leonard0MF">
+  <img src="https://skillicons.dev/icons?i=github" />
+</a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/leonardo-machmann-francisco-898902399/">
+  <img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
+
+</div>
+
 
 <p align="center"><i>"I learn by building, testing, and breaking things."</i></p>
