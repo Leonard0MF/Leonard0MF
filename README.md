@@ -41,13 +41,22 @@ Passionate about high-performance frontends and exploring the offensive side of 
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
-**Security & Tools**
+**Security & Networks**
 
 <p>
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Nmap-8B0000?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/OSINT-FF6B35?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Penetration_Testing-critical?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Networking_&_Infrastructure-0A66C2?style=for-the-badge&logoColor=white" />
+</p>
+
+**Tools & DevOps**
+
+<p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
 </p>
 
 ---
