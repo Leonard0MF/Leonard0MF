@@ -36,12 +36,13 @@
 </p>
 
 **Security & Networks**
+
 <p>
-  <img src="https://img.shields.io/badge/Kali_Linux-1A1A1A?style=flat&logo=kalilinux&logoColor=557C94" />
+  <img src="https://img.shields.io/badge/Kali_Linux-1A1A1A?style=flat&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/Nmap-1A1A1A?style=flat&logo=scapy&logoColor=8B0000" />
   <img src="https://img.shields.io/badge/OSINT-1A1A1A?style=flat&logo=spyder&logoColor=FF6B35" />
-  <img src="https://img.shields.io/badge/Penetration_Testing-1A1A1A?style=flat&logo=wireshark&logoColor=005F87" />
-  <img src="https://img.shields.io/badge/Infrastructure-1A1A1A?style=flat&logo=cisco&logoColor=0A66C2" />
+  <img src="https://img.shields.io/badge/Penetration_Testing-1A1A1A?style=flat&logo=hackthebox&logoColor=red" />
+  <img src="https://img.shields.io/badge/Infrastructure-1A1A1A?style=flat&logo=wireshark&logoColor=0A66C2" />
 </p>
 
 **Tools & DevOps**
