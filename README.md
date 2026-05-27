@@ -1,16 +1,13 @@
-# Hey, I'm Léo 👋
+<div align="center">
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Age-18-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Location-Brazil%20🇧🇷-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/English-Conversational-orange?style=flat-square" />
-  <img src="https://komarev.com/ghpvc/?username=Leonard0MF&style=flat-square&color=grey" alt="Profile views" />
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=38&duration=4000&pause=100000&color=FFFFFF&center=true&vCenter=true&width=700&height=100&lines=Hey,+I'm+Léo+👋" />
 
-Web developer finishing a technical course in programming, building real products under my own studio — **[Elyra Studio](https://github.com/ElyraStudio)**.  
-Passionate about high-performance frontends and exploring the offensive side of cybersecurity.
+```bash
+> Frontend Engineer • Cybersecurity Enthusiast
+> Founder @ Elyra Studio
+```
 
----
+</div>
 
 ## 🛠 Tech Stack
 
