@@ -6,8 +6,8 @@
   <img src="https://img.shields.io/badge/English-Conversational-orange?style=flat-square" alt="English">
 </p>
 
-💻 **Full Stack Developer** finishing a technical course in programming.  
-🚀 Passionate about building high-performance, real-world web applications and exploring cybersecurity.
+💻 **Web Developer** finishing a technical course in programming.  
+🚀 Passionate about building high-performance, real-world frontend applications and exploring cybersecurity.
 
 ---
 
@@ -64,11 +64,11 @@
 > ⚡ Developed under my own studio, focusing on high performance, modern UI/UX, and real business outcomes.
 
 *   🌐 **Elyra** – Modern landing pages and ecosystem for small businesses. Built with Next.js, React, and TypeScript.
-    *   [🔗 Live Demo](https://elyra-b1op.vercel.app/) • [💻 View Code](https://github.com/Leonard0MF)
+    *   [🔗 Live Demo](https://elyra-b1op.vercel.app/) • [💻 View Organization](https://github.com/ElyraStudio)
 *   💆 **Espaço Lazuli** – Professional, high-conversion web platform focused on UI/UX and client onboarding.
-    *   [🔗 Live Demo](https://espaco-lazuli.vercel.app/)
+    *   [🔗 Live Demo](https://espaco-lazuli.vercel.app/) • [💻 View Organization](https://github.com/ElyraStudio)
 *   🦶 **Lita Podóloga** – Production-ready business website designed for client presence and automated lead generation.
-    *   [🔗 Live Demo](https://lita-podologa.vercel.app/)
+    *   [🔗 Live Demo](https://lita-podologa.vercel.app/) • [💻 View Organization](https://github.com/ElyraStudio)
 
 ---
 
