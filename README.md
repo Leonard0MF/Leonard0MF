@@ -12,51 +12,44 @@
 ## 🛠 Tech Stack
 
 **Languages**
-
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-1A1A1A?style=flat&logo=typescript&logoColor=007ACC" />
+  <img src="https://img.shields.io/badge/JavaScript-1A1A1A?style=flat&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/Python-1A1A1A?style=flat&logo=python&logoColor=3776AB" />
+  <img src="https://img.shields.io/badge/PHP-1A1A1A?style=flat&logo=php&logoColor=777BB4" />
+  <img src="https://img.shields.io/badge/Java-1A1A1A?style=flat&logo=openjdk&logoColor=ED8B00" />
 </p>
 
 **Frontend**
-
 <p>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-1A1A1A?style=flat&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-1A1A1A?style=flat&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-1A1A1A?style=flat&logo=tailwindcss&logoColor=38B2AC" />
+  <img src="https://img.shields.io/badge/Vite-1A1A1A?style=flat&logo=vite&logoColor=646CFF" />
 </p>
 
 **Backend & Database**
-
 <p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-1A1A1A?style=flat&logo=nodedotjs&logoColor=339933" />
+  <img src="https://img.shields.io/badge/FastAPI-1A1A1A?style=flat&logo=fastapi&logoColor=009688" />
+  <img src="https://img.shields.io/badge/MySQL-1A1A1A?style=flat&logo=mysql&logoColor=4479A1" />
 </p>
 
 **Security & Networks**
-
 <p>
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nmap-8B0000?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/OSINT-FF6B35?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Penetration_Testing-critical?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Networking_&_Infrastructure-0A66C2?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali_Linux-1A1A1A?style=flat&logo=kalilinux&logoColor=557C94" />
+  <img src="https://img.shields.io/badge/Nmap-1A1A1A?style=flat&logo=scapy&logoColor=8B0000" />
+  <img src="https://img.shields.io/badge/OSINT-1A1A1A?style=flat&logo=spyder&logoColor=FF6B35" />
+  <img src="https://img.shields.io/badge/Penetration_Testing-1A1A1A?style=flat&logo=wireshark&logoColor=005F87" />
+  <img src="https://img.shields.io/badge/Infrastructure-1A1A1A?style=flat&logo=cisco&logoColor=0A66C2" />
 </p>
 
 **Tools & DevOps**
-
 <p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-1A1A1A?style=flat&logo=docker&logoColor=2496ED" />
+  <img src="https://img.shields.io/badge/Git-1A1A1A?style=flat&logo=git&logoColor=F05032" />
+  <img src="https://img.shields.io/badge/npm-1A1A1A?style=flat&logo=npm&logoColor=CB3837" />
 </p>
-
----
 
 ## 💼 Projects
 
