@@ -1,57 +1,89 @@
 # 👋 Hi, I'm Léo (Leonardo)
 
-💻 18-year-old Brazilian developer, finishing a technical course in programming
-🚀 Building real-world projects and exploring cybersecurity
+<p align="left">
+  <img src="https://img.shields.io/badge/Age-18-blue?style=flat-square" alt="Age">
+  <img src="https://img.shields.io/badge/Location-Brazil-green?style=flat-square" alt="Location">
+  <img src="https://img.shields.io/badge/English-Conversational-orange?style=flat-square" alt="English">
+</p>
+
+💻 **Full Stack Developer** finishing a technical course in programming.  
+🚀 Passionate about building high-performance, real-world web applications and exploring cybersecurity.
 
 ---
 
 ## 🔧 Tech Stack
 
-### 💻 Languages
-Python • JavaScript • Java • Dart • PHP • SQL  
+### 💻 Languages & Tools
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+</p>
 
 ### 🎨 Frontend
-React • HTML • CSS • Tailwind • Framer Motion  
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion">
+</p>
 
-### ⚙️ Backend
-Node.js • FastAPI • PHP  
+### ⚙️ Backend & Database
+<p align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
+</p>
 
 ### 🛡️ Cybersecurity
-Kali Linux • Nmap • Netcat • OSINT  
-
-### 🧰 Tools
-Git • GitHub • Docker  
----
-
-## 💼 Real Projects
-
-- 🌐 **Elyra** – Modern landing pages for small businesses (https://elyra-b1op.vercel.app/)
-- 💆 **Espaço Lazuli** – Professional website focused on UI/UX and conversion (https://espaco-lazuli.vercel.app/)
-- 🦶 **Lita Podóloga** – Business website designed for client presence and lead generation (https://lita-podologa.vercel.app/)
-
-> Developed under my own studio, focusing on performance, design and real client needs.
+<p align="left">
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white" alt="Kali">
+  <img src="https://img.shields.io/badge/Nmap-8B0000?style=flat-square" alt="Nmap">
+  <img src="https://img.shields.io/badge/OSINT-🔥-orange?style=flat-square" alt="OSINT">
+</p>
 
 ---
 
-## 🧪 Personal Projects
+## 💼 Real-World Projects
 
-- 🛡️ Mini Honeypot (Python) – Learning network security in practice  
-- 🔍 OSINT Tool – Automating public data analysis  
+> ⚡ Developed under my own studio, focusing on high performance, modern UI/UX, and real business outcomes.
 
----
-
-## Current Focus
-
-- Improving frontend performance and design  
-- Deepening knowledge in cybersecurity  
-- Building scalable and real-world projects  
+*   🌐 **Elyra** – Modern landing pages and ecosystem for small businesses. Built with Next.js, React, and TypeScript.
+    *   [🔗 Live Demo](https://elyra-b1op.vercel.app/) • [💻 View Code](https://github.com/Leonard0MF)
+*   💆 **Espaço Lazuli** – Professional, high-conversion web platform focused on UI/UX and client onboarding.
+    *   [🔗 Live Demo](https://espaco-lazuli.vercel.app/)
+*   🦶 **Lita Podóloga** – Production-ready business website designed for client presence and automated lead generation.
+    *   [🔗 Live Demo](https://lita-podologa.vercel.app/)
 
 ---
 
-## 📫 Contact
+## 🧪 Security & Personal Labs
 
-- GitHub: https://github.com/Leonard0MF  
+*   🛡️ **Mini Honeypot** `(Python)` – A practical lab environment created to simulate, detect, and log unauthorized network intrusion attempts.
+*   🔍 **OSINT Automation Tool** `(Python)` – Script developed to automate public data gathering and intelligence analysis.
 
 ---
 
-> “I learn by building, testing, and breaking things.”
+## 🎯 Current Focus
+
+*   ⚡ Optimizing frontend web performance and Core Web Vitals.
+*   🔒 Deepening knowledge in backend security, pen-testing, and secure coding practices.
+*   💼 Scaling real-world applications for actual production clients.
+
+---
+
+## 📫 Connect with me
+
+<p align="left">
+  <a href="https://github.com/Leonard0MF"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="MAIN_LINKEDIN_URL_HERE"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
+
+---
+
+<p align="center"><i>“I learn by building, testing, and breaking things.”</i></p>
