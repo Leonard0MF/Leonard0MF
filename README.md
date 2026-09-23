@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Léo Machmann — frontend engineer, full-stack developer, security enthusiast" />
+<img src="banner.svg" width="100%" alt="Léo Machmann — frontend engineer, full-stack developer, security enthusiast" />
 
 <br/>
 
@@ -24,7 +24,7 @@ Right now I'm building products and client solutions through **Elyra Studio**.
 
 <div align="center">
 
-<img src="assets/stack.svg" width="100%" alt="Tech stack: TypeScript, JavaScript, Python, PHP, Java, Next.js, React, Vite, Tailwind, TanStack, React Hook Form, Zod, Node.js, FastAPI, MySQL, Supabase, Three.js, React Three Fiber, GSAP, WebGL, GLSL, Kali, Linux, Nmap, OSINT, Pentesting, Networking, Git, GitHub, Docker, npm" />
+<img src="stack.svg" width="100%" alt="Tech stack: TypeScript, JavaScript, Python, PHP, Java, Next.js, React, Vite, Tailwind, TanStack, React Hook Form, Zod, Node.js, FastAPI, MySQL, Supabase, Three.js, React Three Fiber, GSAP, WebGL, GLSL, Kali, Linux, Nmap, OSINT, Pentesting, Networking, Git, GitHub, Docker, npm" />
 
 </div>
 
@@ -82,6 +82,6 @@ Automates public data gathering and intelligence analysis workflows. &nbsp;→&n
 
 <br/><br/>
 
-<img src="assets/footer.svg" width="100%" alt="I learn by building, testing, and breaking things." />
+<img src="footer.svg" width="100%" alt="I learn by building, testing, and breaking things." />
 
 </div>
