@@ -1,235 +1,147 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=38&duration=4000&pause=100000&color=FFFFFF&center=true&vCenter=true&width=700&height=100&lines=Hey,+I'm+Léo+👋" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF9C&height=200&section=header&text=L%C3%89O%20MACHMANN&fontSize=52&fontColor=FFFFFF&fontAlignY=40&desc=Frontend%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20Cybersecurity&descSize=18&descAlignY=62&descColor=00FF9C" width="100%" alt="header" />
 
-```bash
-> Frontend Engineer • Full-Stack Developer • Cybersecurity Enthusiast
-> Founder @ Elyra Studio
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1200&color=00FF9C&center=true&vCenter=true&width=700&height=50&lines=Hey,+I'm+L%C3%A9o;Frontend+Engineer;Full-Stack+Developer;Cybersecurity+Enthusiast;Founder+@+Elyra+Studio" alt="typing intro" />
+
+<br/>
+
+<a href="https://github.com/ElyraStudio"><img src="https://img.shields.io/badge/Elyra_Studio-0D1117?style=for-the-badge&logo=github&logoColor=00FF9C&labelColor=0D1117&color=00FF9C" alt="Elyra Studio" /></a>
+<a href="https://www.linkedin.com/in/leonardo-machmann-francisco/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0D1117&color=00E5FF" alt="LinkedIn" /></a>
+<a href="https://elyras.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=FFFFFF&labelColor=0D1117&color=FFFFFF" alt="Elyra site" /></a>
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## `~/whoami`
 
-I'm a developer focused on building **modern, performant and security-conscious web applications**.
+```bash
+$ whoami
+leo — frontend engineer · full-stack developer · security enthusiast
 
-My work combines frontend engineering, full-stack development, interactive experiences and cybersecurity — from business platforms and SaaS products to 3D/WebGL interfaces and security labs.
+$ cat mission.txt
+Building modern, performant and security-conscious web applications.
+From business platforms and SaaS products to 3D/WebGL interfaces and security labs.
 
-Currently building products and client solutions through **Elyra Studio**.
-
----
-
-## 🛠 Tech Stack
-
-### Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,php,java" />
-</p>
-
-### Frontend & Full-Stack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,vite,tailwind" />
-  <img src="https://img.shields.io/badge/TanStack-1A1A1A?style=flat&logo=reactquery&logoColor=FF4154" />
-  <img src="https://img.shields.io/badge/React_Hook_Form-1A1A1A?style=flat&logo=reacthookform&logoColor=EC5990" />
-  <img src="https://img.shields.io/badge/Zod-1A1A1A?style=flat&logo=zod&logoColor=3E67B1" />
-</p>
-
-* React
-* Next.js
-* TanStack Start / TanStack Router
-* React Query
-* React Hook Form
-* Zod
-* Tailwind CSS
-* Vite
-
-### Backend & Database
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,mysql,supabase" />
-  <img src="https://img.shields.io/badge/FastAPI-1A1A1A?style=flat&logo=fastapi&logoColor=009688" />
-</p>
-
-* Node.js
-* FastAPI
-* Supabase
-* MySQL
-* REST APIs
-* Authentication & database integration
-
-### 3D, WebGL & Creative Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=threejs" />
-  <img src="https://img.shields.io/badge/React_Three_Fiber-1A1A1A?style=flat&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/GSAP-1A1A1A?style=flat&logo=greensock&logoColor=88CE02" />
-  <img src="https://img.shields.io/badge/WebGL-1A1A1A?style=flat&logo=webgl&logoColor=990000" />
-  <img src="https://img.shields.io/badge/GLSL-1A1A1A?style=flat&logo=opengl&logoColor=5586A4" />
-</p>
-
-* Three.js
-* React Three Fiber
-* React Three Drei
-* WebGL
-* GLSL shaders
-* 3D interfaces
-* GPU-based visual effects
-* GSAP animations
-
-### Security & Networks
-
-<p>
-  <img src="https://skillicons.dev/icons?i=kali,linux" />
-  <img src="https://img.shields.io/badge/Nmap-1A1A1A?style=flat&logoColor=8B0000" />
-  <img src="https://img.shields.io/badge/OSINT-1A1A1A?style=flat&logoColor=FF6B35" />
-  <img src="https://img.shields.io/badge/Penetration_Testing-1A1A1A?style=flat&logoColor=red" />
-  <img src="https://img.shields.io/badge/Network_Security-1A1A1A?style=flat&logo=wireshark&logoColor=1679A7" />
-</p>
-
-* Kali Linux
-* Linux
-* Nmap
-* OSINT
-* Penetration Testing
-* TCP/IP & Networking
-* Security-focused application development
-
-### Tools & DevOps
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,docker,npm" />
-</p>
-
-* Git / GitHub
-* Docker
-* npm
-* Vite
-* Linux development environments
+$ echo $CURRENT_FOCUS
+Products and client solutions @ Elyra Studio
+```
 
 ---
 
-## 💼 Projects
+## `~/stack`
+
+| | |
+| :-- | :-- |
+| **Languages** | <img src="https://skillicons.dev/icons?i=ts,js,python,php,java&theme=dark" alt="languages" /> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=nextjs,react,vite,tailwind&theme=dark" alt="frontend" /> <br/> <img src="https://img.shields.io/badge/TanStack-0D1117?style=flat-square&logo=reactquery&logoColor=FF4154" alt="TanStack" /> <img src="https://img.shields.io/badge/React_Hook_Form-0D1117?style=flat-square&logo=reacthookform&logoColor=EC5990" alt="React Hook Form" /> <img src="https://img.shields.io/badge/Zod-0D1117?style=flat-square&logo=zod&logoColor=3E67B1" alt="Zod" /> |
+| **Backend & DB** | <img src="https://skillicons.dev/icons?i=nodejs,mysql,supabase&theme=dark" alt="backend" /> <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI" /> |
+| **3D & Creative** | <img src="https://skillicons.dev/icons?i=threejs&theme=dark" alt="three.js" /> <img src="https://img.shields.io/badge/React_Three_Fiber-0D1117?style=flat-square&logo=react&logoColor=61DAFB" alt="R3F" /> <img src="https://img.shields.io/badge/GSAP-0D1117?style=flat-square&logo=greensock&logoColor=88CE02" alt="GSAP" /> <img src="https://img.shields.io/badge/WebGL-0D1117?style=flat-square&logo=webgl&logoColor=FF3B3B" alt="WebGL" /> <img src="https://img.shields.io/badge/GLSL-0D1117?style=flat-square&logo=opengl&logoColor=5586A4" alt="GLSL" /> |
+| **Security** | <img src="https://skillicons.dev/icons?i=kali,linux&theme=dark" alt="security" /> <br/> <img src="https://img.shields.io/badge/Nmap-0D1117?style=flat-square&labelColor=0D1117&color=00FF9C" alt="Nmap" /> <img src="https://img.shields.io/badge/OSINT-0D1117?style=flat-square&labelColor=0D1117&color=00FF9C" alt="OSINT" /> <img src="https://img.shields.io/badge/Pentesting-0D1117?style=flat-square&labelColor=0D1117&color=00FF9C" alt="Pentesting" /> <img src="https://img.shields.io/badge/Network_Security-0D1117?style=flat-square&logo=wireshark&logoColor=1679A7" alt="Network Security" /> |
+| **Tools & DevOps** | <img src="https://skillicons.dev/icons?i=git,github,docker,npm&theme=dark" alt="tools" /> |
+
+---
+
+## `~/projects`
 
 > Built with a focus on **performance, modern UI/UX, real-world usability and security**.
 
-| Project              | Description                                                                          | Stack                                         | Live                                   |
-| -------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------- | -------------------------------------- |
-| 🌐 **Elyra**         | Landing page ecosystem for small businesses                                          | Next.js · React · TypeScript                  | [↗](https://elyras.vercel.app/)        |
-| 💆 **Espaço Lazuli** | High-conversion business platform focused on UI/UX and client onboarding             | React · TypeScript · Tailwind · Framer Motion | [↗](https://espaco-lazuli.vercel.app/) |
-| 🦶 **Lita Podóloga** | Business website focused on lead generation and conversion                           | React · TypeScript · Tailwind                 | [↗](https://lita-podologa.vercel.app/) |
-| 🩺 **Podocare Flow** | Management platform for podologists with scheduling, clients, services and anamnesis | React · TanStack · Supabase · Tailwind · Zod  | —                                      |
-| 🌍 **Aura Máxima**   | Immersive developer portfolio combining 3D, WebGL and interactive storytelling       | Next.js · Three.js · R3F · GLSL · GSAP        | —                                      |
+| Project | Description | Stack | Live |
+| :-- | :-- | :-- | :-: |
+| 🌐 **Elyra** | Landing page ecosystem for small businesses | Next.js · React · TypeScript | [↗](https://elyras.vercel.app/) |
+| 💆 **Espaço Lazuli** | High-conversion business platform focused on UI/UX and client onboarding | React · TypeScript · Tailwind · Framer Motion | [↗](https://espaco-lazuli.vercel.app/) |
+| 🦶 **Lita Podóloga** | Business website focused on lead generation and conversion | React · TypeScript · Tailwind | [↗](https://lita-podologa.vercel.app/) |
+| 🩺 **Podocare Flow** | Management platform for podologists: scheduling, clients, services and anamnesis | React · TanStack · Supabase · Tailwind · Zod | — |
+| 🌍 **Aura Máxima** | Immersive developer portfolio combining 3D, WebGL and interactive storytelling | Next.js · Three.js · R3F · GLSL · GSAP | — |
+
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌌 Aura Máxima
+*Pushing the browser beyond traditional interfaces.*
+
+- Real-time 3D Earth-from-space visualization
+- Custom ocean and atmosphere GLSL shaders
+- Day/night lighting system
+- Procedural star particles
+- Scroll-driven animations (GSAP)
+- React Three Fiber architecture
+
+</td>
+<td width="50%" valign="top">
+
+### 🩺 Podocare Flow
+*A real-world SaaS-style app for podologists.*
+
+- Appointment and client management
+- Client history and anamnesis
+- Services, pricing and payment info
+- Authentication and persistent database
+- React + TanStack Start/Router + Supabase
+- React Hook Form · Zod · Tailwind · date-fns
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🌌 3D & Creative Development
+## `~/security-labs`
 
-**Aura Máxima** is an experimental portfolio focused on pushing the browser beyond traditional interfaces.
+```bash
+$ ls labs/
+```
 
-The project explores:
+| Lab | Description | Stack |
+| :-- | :-- | :-: |
+| 🛡️ [**Mini Honeypot**](https://github.com/Leonard0MF/MINY-HONEYPOOT) | Simulates and logs unauthorized network intrusion attempts in a controlled environment | `Python` |
+| 🔍 [**OSINT Automation Tool**](https://github.com/Leonard0MF/osint-base) | Automates public data gathering and intelligence analysis workflows | `Python` |
 
-* 🌍 Real-time 3D environments
-* 🛰️ Earth-from-space visualization
-* 🌊 Custom ocean shaders
-* 🌃 Day/night lighting systems
-* ✨ Procedural star particles
-* 🎨 GLSL atmospheric effects
-* 🖥️ WebGL rendering
-* 🧩 React Three Fiber architecture
-* 🎞️ Scroll-driven animations
-
-The goal is to combine **frontend engineering, graphics programming and interactive storytelling** into a single web experience.
+> ⚠️ All security work is done in controlled environments or on authorized targets only.
 
 ---
 
-## 🦶 Product Development
+## `~/focus`
 
-**Podocare Flow** is a real-world SaaS-style application designed for podologists.
-
-Current architecture includes:
-
-* **React + TypeScript**
-* **TanStack Start / Router**
-* **Supabase**
-* **TanStack Query**
-* **React Hook Form**
-* **Zod**
-* **Tailwind CSS**
-* **Lucide**
-* **date-fns**
-
-The system covers areas such as:
-
-* 📅 Appointment management
-* 👤 Client management
-* 🧾 Client history
-* 💳 Payment information
-* 🩺 Anamnesis
-* 🧴 Services and pricing
-* 🔐 Authentication
-* 🗄️ Persistent database integration
+- [x] ⚡ Advanced frontend architecture and performance
+- [x] 🔐 Web application security and penetration testing
+- [x] 🧠 Full-stack application development
+- [x] 🌐 WebGL, Three.js and GLSL
+- [x] 🗄️ Backend architecture and database-driven applications
+- [x] 🚀 Building and scaling real-world products through Elyra Studio
 
 ---
 
-## 🔬 Security Labs
-
-* 🛡️ **[Mini Honeypot](https://github.com/Leonard0MF/MINY-HONEYPOT)** `Python`
-  Simulates and logs unauthorized network intrusion attempts in a controlled environment.
-
-* 🔍 **[OSINT Automation Tool](https://github.com/Leonard0MF/osint-base)** `Python`
-  Automates public data gathering and intelligence analysis workflows.
-
----
-
-## 🎯 Currently Focused On
-
-* ⚡ Advanced frontend architecture and performance
-* 🔐 Web application security and penetration testing
-* 🧠 Full-stack application development
-* 🌐 WebGL, Three.js and GLSL
-* 🗄️ Backend architecture and database-driven applications
-* 🚀 Building and scaling real-world products through Elyra Studio
-
----
-
-# 📊 GitHub Analytics
+## `~/stats`
 
 <div align="center">
 
-<br/>
-
-<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Leonard0MF&bg_color=00000000&color=c9d1d9&line=8b949e&point=ffffff&hide_border=true" />
+<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Leonard0MF&bg_color=00000000&color=00FF9C&line=00FF9C&point=FFFFFF&area=true&area_color=00FF9C&hide_border=true" alt="activity graph" />
 
 <br/>
 
-<img width="800" src="https://streak-stats.demolab.com?user=Leonard0MF&theme=github-dark-blue&hide_border=true&background=00000000&ring=8b949e&fire=ffffff&currStreakLabel=c9d1d9" />
+<img width="800" src="https://streak-stats.demolab.com?user=Leonard0MF&theme=dark&hide_border=true&background=00000000&ring=00FF9C&fire=00FF9C&currStreakNum=FFFFFF&currStreakLabel=00FF9C&sideNums=FFFFFF&sideLabels=8B949E&dates=8B949E" alt="streak stats" />
 
 </div>
 
 ---
 
-## 📬 Contact
+## `~/contact`
 
 <div align="center">
 
-<a href="https://github.com/Leonard0MF">
-  <img src="https://skillicons.dev/icons?i=github" />
-</a>
+<a href="https://github.com/Leonard0MF"><img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" /></a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/leonardo-machmann-francisco/"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn" /></a>
 
-   
+<br/><br/>
 
-<a href="https://www.linkedin.com/in/leonardo-machmann-francisco-898902399/">
-  <img src="https://skillicons.dev/icons?i=linkedin" />
-</a>
+<i>"I learn by building, testing, and breaking things."</i>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF9C&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
-
-<br/>
-
-<p align="center">
-  <i>"I learn by building, testing, and breaking things."</i>
-</p>
