@@ -35,34 +35,47 @@ Products and client solutions @ Elyra Studio
 <div align="center">
 
 **Languages**<br/>
-<img src="https://skillicons.dev/icons?i=ts,js,python,php,java&theme=dark" alt="languages" />
+<img src="https://img.shields.io/badge/TypeScript-1F2937?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-1F2937?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Python-1F2937?style=for-the-badge&logo=python&logoColor=4B8BBE" alt="Python" />
+<img src="https://img.shields.io/badge/PHP-1F2937?style=for-the-badge&logo=php&logoColor=8892BF" alt="PHP" />
+<img src="https://img.shields.io/badge/Java-1F2937?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" />
 
 **Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=nextjs,react,vite,tailwind&theme=dark" alt="frontend" /><br/>
-<img src="https://img.shields.io/badge/TanStack-1F2937?style=flat-square&logo=reactquery&logoColor=FF4154" alt="TanStack" />
-<img src="https://img.shields.io/badge/React_Hook_Form-1F2937?style=flat-square&logo=reacthookform&logoColor=EC5990" alt="React Hook Form" />
-<img src="https://img.shields.io/badge/Zod-1F2937?style=flat-square&logo=zod&logoColor=3E67B1" alt="Zod" />
+<img src="https://img.shields.io/badge/Next.js-1F2937?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" />
+<img src="https://img.shields.io/badge/React-1F2937?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Vite-1F2937?style=for-the-badge&logo=vite&logoColor=BD34FE" alt="Vite" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-1F2937?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/TanStack-1F2937?style=for-the-badge&logo=reactquery&logoColor=FF4154" alt="TanStack" />
+<img src="https://img.shields.io/badge/React_Hook_Form-1F2937?style=for-the-badge&logo=reacthookform&logoColor=EC5990" alt="React Hook Form" />
+<img src="https://img.shields.io/badge/Zod-1F2937?style=for-the-badge&logo=zod&logoColor=5B8DEF" alt="Zod" />
 
 **Backend & Database**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,mysql,supabase&theme=dark" alt="backend" />
-<img src="https://img.shields.io/badge/FastAPI-1F2937?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Node.js-1F2937?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+<img src="https://img.shields.io/badge/FastAPI-1F2937?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
+<img src="https://img.shields.io/badge/MySQL-1F2937?style=for-the-badge&logo=mysql&logoColor=6BA6D6" alt="MySQL" />
+<img src="https://img.shields.io/badge/Supabase-1F2937?style=for-the-badge&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
 
 **3D & Creative**<br/>
-<img src="https://skillicons.dev/icons?i=threejs&theme=dark" alt="three.js" /><br/>
-<img src="https://img.shields.io/badge/React_Three_Fiber-1F2937?style=flat-square&logo=react&logoColor=61DAFB" alt="R3F" />
-<img src="https://img.shields.io/badge/GSAP-1F2937?style=flat-square&logo=greensock&logoColor=88CE02" alt="GSAP" />
-<img src="https://img.shields.io/badge/WebGL-1F2937?style=flat-square&logo=webgl&logoColor=FF3B3B" alt="WebGL" />
-<img src="https://img.shields.io/badge/GLSL-1F2937?style=flat-square&logo=opengl&logoColor=5586A4" alt="GLSL" />
+<img src="https://img.shields.io/badge/Three.js-1F2937?style=for-the-badge&logo=threedotjs&logoColor=FFFFFF" alt="Three.js" />
+<img src="https://img.shields.io/badge/React_Three_Fiber-1F2937?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Three Fiber" />
+<img src="https://img.shields.io/badge/GSAP-1F2937?style=for-the-badge&logo=greensock&logoColor=88CE02" alt="GSAP" />
+<img src="https://img.shields.io/badge/WebGL-1F2937?style=for-the-badge&logo=webgl&logoColor=FF5555" alt="WebGL" />
+<img src="https://img.shields.io/badge/GLSL-1F2937?style=for-the-badge&logo=opengl&logoColor=5586A4" alt="GLSL" />
 
 **Security**<br/>
-<img src="https://skillicons.dev/icons?i=kali,linux&theme=dark" alt="security" /><br/>
-<img src="https://img.shields.io/badge/Nmap-1F2937?style=flat-square&labelColor=1F2937&color=8B5CF6" alt="Nmap" />
-<img src="https://img.shields.io/badge/OSINT-1F2937?style=flat-square&labelColor=1F2937&color=8B5CF6" alt="OSINT" />
-<img src="https://img.shields.io/badge/Pentesting-1F2937?style=flat-square&labelColor=1F2937&color=8B5CF6" alt="Pentesting" />
-<img src="https://img.shields.io/badge/Network_Security-1F2937?style=flat-square&logo=wireshark&logoColor=1679A7" alt="Network Security" />
+<img src="https://img.shields.io/badge/Kali_Linux-1F2937?style=for-the-badge&logo=kalilinux&logoColor=367BF0" alt="Kali Linux" />
+<img src="https://img.shields.io/badge/Linux-1F2937?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
+<img src="https://img.shields.io/badge/Nmap-1F2937?style=for-the-badge" alt="Nmap" />
+<img src="https://img.shields.io/badge/OSINT-1F2937?style=for-the-badge" alt="OSINT" />
+<img src="https://img.shields.io/badge/Pentesting-1F2937?style=for-the-badge" alt="Pentesting" />
+<img src="https://img.shields.io/badge/Network_Security-1F2937?style=for-the-badge&logo=wireshark&logoColor=1679A7" alt="Network Security" />
 
 **Tools & DevOps**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,docker,npm&theme=dark" alt="tools" />
+<img src="https://img.shields.io/badge/Git-1F2937?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-1F2937?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+<img src="https://img.shields.io/badge/Docker-1F2937?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+<img src="https://img.shields.io/badge/npm-1F2937?style=for-the-badge&logo=npm&logoColor=CB3837" alt="npm" />
 
 </div>
 
@@ -80,25 +93,6 @@ Products and client solutions @ Elyra Studio
 | **Podocare Flow** | Management platform for podologists: scheduling, clients, services and anamnesis | React · TanStack · Supabase · Tailwind · Zod | — |
 | **Aura Máxima** | Immersive developer portfolio combining 3D, WebGL and interactive storytelling | Next.js · Three.js · R3F · GLSL · GSAP | — |
 
-<br/>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Aura Máxima
-*Pushing the browser beyond traditional interfaces.*
-
-- Real-time 3D Earth-from-space visualization
-- Custom ocean and atmosphere GLSL shaders
-- Day/night lighting system
-- Procedural star particles
-- Scroll-driven animations (GSAP)
-- React Three Fiber architecture
-
-</td>
-<td width="50%" valign="top">
-
 ### Podocare Flow
 *A real-world SaaS-style app for podologists.*
 
@@ -108,10 +102,6 @@ Products and client solutions @ Elyra Studio
 - Authentication and persistent database
 - React + TanStack Start/Router + Supabase
 - React Hook Form · Zod · Tailwind · date-fns
-
-</td>
-</tr>
-</table>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:6D28D9,100:0D1117&height=2" width="100%" alt="" />
 
@@ -140,10 +130,6 @@ Products and client solutions @ Elyra Studio
 ## Stats
 
 <div align="center">
-
-<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Leonard0MF&bg_color=00000000&color=A78BFA&line=8B5CF6&point=22D3EE&area=true&area_color=8B5CF6&hide_border=true" alt="activity graph" />
-
-<br/>
 
 <img width="800" src="https://streak-stats.demolab.com?user=Leonard0MF&theme=dark&hide_border=true&background=00000000&ring=8B5CF6&fire=22D3EE&currStreakNum=FFFFFF&currStreakLabel=A78BFA&sideNums=FFFFFF&sideLabels=8B949E&dates=8B949E" alt="streak stats" />
 
