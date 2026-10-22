@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.svg" width="100%" alt="Léo Machmann — frontend engineer, full-stack developer, security enthusiast" />
+<img src="banner.svg" width="100%" alt="Léo Machmann — frontend engineer, full-stack developer, security" />
 
 <br/>
 
@@ -78,7 +78,7 @@ Automates public data gathering and intelligence analysis workflows. &nbsp;→&n
 
 <div align="center">
 
-<img width="720" src="https://streak-stats.demolab.com?user=Leonard0MF&hide_border=true&border_radius=24&background=F3EEE4&stroke=00000000&ring=FF4D1C&fire=FF4D1C&currStreakNum=16130F&currStreakLabel=FF4D1C&sideNums=16130F&sideLabels=7A7368&dates=7A7368" alt="GitHub streak" />
+<img width="100%" src="https://streak-stats.demolab.com?user=Leonard0MF&border_radius=16&border=1E2025&background=0C0D0F&stroke=2A2D33&ring=C9F158&fire=C9F158&currStreakNum=EDEBE6&currStreakLabel=C9F158&sideNums=EDEBE6&sideLabels=9A9DA4&dates=5D6068" alt="GitHub streak" />
 
 <br/><br/>
 
