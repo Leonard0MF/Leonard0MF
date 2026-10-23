@@ -78,7 +78,7 @@ Automates public data gathering and intelligence analysis workflows. &nbsp;→&n
 
 <div align="center">
 
-<img width="100%" src="https://streak-stats.demolab.com?user=Leonard0MF&border_radius=16&border=1E2025&background=0C0D0F&stroke=2A2D33&ring=C9F158&fire=C9F158&currStreakNum=EDEBE6&currStreakLabel=C9F158&sideNums=EDEBE6&sideLabels=9A9DA4&dates=5D6068" alt="GitHub streak" />
+<img src="stats.svg" width="100%" alt="GitHub activity: contributions, current streak and longest streak" />
 
 <br/><br/>
 
