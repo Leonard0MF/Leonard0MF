@@ -30,16 +30,18 @@ jobs:
           # STATS_TOKEN (opcional) = token pessoal; sem ele usa o token padrão da Action
           GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
           USERNAME: ${{ github.repository_owner }}
-        run: node scripts/update-stats.mjs
+        run: |
+          node scripts/update-stats.mjs
+          test -s stats.svg || { echo "::error::stats.svg não foi gerado — confira se scripts/update-stats.mjs tem o código"; exit 1; }
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- stats.svg && git ls-files --error-unmatch stats.svg >/dev/null 2>&1; then
+          git add stats.svg
+          if git diff --cached --quiet; then
             echo "Sem mudanças"; exit 0
           fi
           # commit feito pelo bot: NÃO conta como contribuição sua
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats.svg
           git commit -m "chore: update stats"
           git push
