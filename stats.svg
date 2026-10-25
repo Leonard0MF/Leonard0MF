@@ -4,7 +4,7 @@
 <clipPath id="fr"><rect width="1200" height="400" rx="16"/></clipPath></defs>
 <g clip-path="url(#fr)"><rect width="1200" height="400" fill="#0C0D0F"/>
 <text x="64" y="64" class="m cap" fill="#5D6068">GITHUB ACTIVITY</text>
-<text x="1136" y="64" class="m cap" fill="#5D6068" text-anchor="end">UPDATED OCT 24, 2026</text>
+<text x="1136" y="64" class="m cap" fill="#5D6068" text-anchor="end">UPDATED OCT 25, 2026</text>
 <text x="64" y="112" class="m cap" fill="#C9F158">LAST 12 MONTHS</text>
 <text x="64" y="176" class="d" font-size="60" letter-spacing="-2" fill="#EDEBE6">230</text>
 <text x="64" y="206" class="r" font-size="15" fill="#9A9DA4">Contributions</text>
@@ -14,8 +14,8 @@
 <text x="360" y="206" class="r" font-size="15" fill="#9A9DA4">Since Oct 18, 2022</text>
 <line x1="600" y1="104" x2="600" y2="212" stroke="#1E2025"/>
 <text x="628" y="112" class="m cap" fill="#5D6068">CURRENT STREAK</text>
-<text x="628" y="176" class="d" font-size="60" letter-spacing="-2" fill="#EDEBE6">5<tspan class="r" font-size="20" letter-spacing="0" fill="#9A9DA4" dx="8">days</tspan></text>
-<text x="628" y="206" class="r" font-size="15" fill="#9A9DA4">Oct 19 – Oct 23</text>
+<text x="628" y="176" class="d" font-size="60" letter-spacing="-2" fill="#EDEBE6">0<tspan class="r" font-size="20" letter-spacing="0" fill="#9A9DA4" dx="8">days</tspan></text>
+<text x="628" y="206" class="r" font-size="15" fill="#9A9DA4">Starts with the next commit</text>
 <line x1="868" y1="104" x2="868" y2="212" stroke="#1E2025"/>
 <text x="896" y="112" class="m cap" fill="#5D6068">LONGEST STREAK</text>
 <text x="896" y="176" class="d" font-size="60" letter-spacing="-2" fill="#EDEBE6">5<tspan class="r" font-size="20" letter-spacing="0" fill="#9A9DA4" dx="8">days</tspan></text>
