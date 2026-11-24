@@ -33,23 +33,11 @@ Right now I'm building products and client solutions through **Elyra Studio**.
 ## Selected work
 
 ### Aegis
-Domain security scanner. Give it a domain and it grades its security posture from 0 to 100, explains every finding and tells you how to fix it.
-
-- **TLS**: certificate chain and validity, accepted protocol versions, weak ciphers, key size, OCSP stapling
-- **Headers & cookies**: HSTS, CSP quality, clickjacking protection, Permissions-Policy, server version leaks, `Secure` / `HttpOnly` / `SameSite`
-- **Email & DNS**: SPF (including the 10-lookup limit), DMARC, DKIM, MTA-STS, TLS-RPT, CAA, DNSSEC
-- **Known vulnerabilities**: detected technologies cross-referenced with OSV, NVD and CISA KEV
-- **Attack surface**: subdomains from Certificate Transparency, subdomain takeover, internal IPs leaked in public DNS
-- **Reputation**: Spamhaus, SURBL, Google Safe Browsing, URLhaus
-- **Active tests**: exposed `.env` / `.git` / backups and internal service ports, **only after the owner proves domain ownership** (DNS TXT or `.well-known` token, HMAC-signed, no database)
-
-Critical findings cap the score no matter what else passes, so an exposed `.env` can never hide behind a good TLS setup. It also tracks score history, diffs between scans and certificate deadlines, and produces a printable report with prioritized fixes.
-
-Built to be secure itself: SSRF protection with IP revalidation on every connection and redirect (against DNS rebinding), per-request CSP nonces, ReDoS-safe technology detection, scan time budgets and per-IP rate limiting.<br/>
+Domain security scanner that grades a site from 0 to 100 and tells you how to fix each finding: TLS, headers, cookies, email/DNS, known CVEs (OSV, NVD, CISA KEV), subdomain takeover and reputation. Active tests only run after the owner proves domain ownership, and the scanner itself is hardened against SSRF and DNS rebinding.<br/>
 `Next.js 16` `React 19` `TypeScript` `Tailwind 4` &nbsp;→&nbsp; [Live ↗](https://aegis-ten-zeta.vercel.app/) · [Code ↗](https://github.com/Leonard0MF/aegis)
 
 ### Podocare Flow
-Practice management system for podologists: scheduling, patient records and clinical history. Anamnesis forms are sent through a unique public link (shareable via WhatsApp), so patients fill everything in on their phone with no account. Backend and database on Supabase, with data protected by Row Level Security.<br/>
+Practice management system for podologists: scheduling, patient records and anamnesis forms sent by link, so patients fill them in on their phone with no account. Supabase backend with Row Level Security.<br/>
 `React` `TypeScript` `TanStack Router` `TanStack Query` `Supabase` `Tailwind` &nbsp;→&nbsp; [Live ↗](https://podocare-theta.vercel.app) · [Code ↗](https://github.com/Leonard0MF/podocare-flow)
 
 ### Client websites · Elyra Studio
@@ -72,7 +60,7 @@ Automates public data gathering and intelligence analysis workflows. &nbsp;→&n
 
 ## Currently building
 
-- **Aura Máxima**: immersive 3D portfolio with an Earth-from-space scene, custom ocean and atmosphere shaders, day/night lighting, procedural stars and scroll-driven storytelling. `Next.js` `Three.js` `R3F` `GLSL` `GSAP` *(in progress)*
+- **Aura Máxima**: immersive 3D portfolio with custom WebGL shaders and scroll-driven storytelling. `Three.js` `R3F` `GLSL` *(in progress)*
 
 <br/>
 
