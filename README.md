@@ -12,7 +12,7 @@
 
 ## About
 
-Developer at **BUMP**, working on internal systems. I build fast, security-conscious web applications, and in my own time I build security tooling and play with 3D/WebGL.
+Full-stack developer at **BUMP**, where I work on our internal systems and own code review and application security. Outside work I build security tooling and play with 3D/WebGL.
 
 <br/>
 
