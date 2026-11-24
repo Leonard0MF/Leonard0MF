@@ -14,7 +14,7 @@
 
 I'm a developer focused on building **modern, performant and security-conscious web applications**.
 
-My work sits between frontend engineering, full-stack development, interactive experiences and cybersecurity: business platforms, SaaS products, 3D/WebGL interfaces and security labs.
+My work sits between frontend engineering, full-stack development, interactive experiences and cybersecurity: business platforms, SaaS products, 3D/WebGL interfaces and security tooling.
 
 Right now I'm building products and client solutions through **Elyra Studio**.
 
@@ -32,25 +32,29 @@ Right now I'm building products and client solutions through **Elyra Studio**.
 
 ## Selected work
 
-**01 — Elyra**<br/>
-Landing page ecosystem for small businesses.<br/>
-`Next.js` `React` `TypeScript` &nbsp;→&nbsp; [Live ↗](https://elyras.vercel.app/)
+### Aegis
+Domain security scanner. Give it a domain and it grades its security posture from 0 to 100, explains every finding and tells you how to fix it.
 
-**02 — Espaço Lazuli**<br/>
-High-conversion business platform focused on UI/UX and client onboarding.<br/>
-`React` `TypeScript` `Tailwind` `Framer Motion` &nbsp;→&nbsp; [Live ↗](https://espaco-lazuli.vercel.app/)
+- **TLS**: certificate chain and validity, accepted protocol versions, weak ciphers, key size, OCSP stapling
+- **Headers & cookies**: HSTS, CSP quality, clickjacking protection, Permissions-Policy, server version leaks, `Secure` / `HttpOnly` / `SameSite`
+- **Email & DNS**: SPF (including the 10-lookup limit), DMARC, DKIM, MTA-STS, TLS-RPT, CAA, DNSSEC
+- **Known vulnerabilities**: detected technologies cross-referenced with OSV, NVD and CISA KEV
+- **Attack surface**: subdomains from Certificate Transparency, subdomain takeover, internal IPs leaked in public DNS
+- **Reputation**: Spamhaus, SURBL, Google Safe Browsing, URLhaus
+- **Active tests**: exposed `.env` / `.git` / backups and internal service ports, **only after the owner proves domain ownership** (DNS TXT or `.well-known` token, HMAC-signed, no database)
 
-**03 — Lita Podóloga**<br/>
-Business website focused on lead generation and conversion.<br/>
-`React` `TypeScript` `Tailwind` &nbsp;→&nbsp; [Live ↗](https://lita-podologa.vercel.app/)
+Critical findings cap the score no matter what else passes, so an exposed `.env` can never hide behind a good TLS setup. It also tracks score history, diffs between scans and certificate deadlines, and produces a printable report with prioritized fixes.
 
-**04 — Podocare Flow**<br/>
-Management system for podologists. Patients and anamnesis forms sent through a unique public link, so the patient fills everything in on their phone with no account. Shareable via WhatsApp, protected with Row Level Security.<br/>
+Built to be secure itself: SSRF protection with IP revalidation on every connection and redirect (against DNS rebinding), per-request CSP nonces, ReDoS-safe technology detection, scan time budgets and per-IP rate limiting.<br/>
+`Next.js 16` `React 19` `TypeScript` `Tailwind 4` &nbsp;→&nbsp; [Live ↗](https://aegis-ten-zeta.vercel.app/) · [Code ↗](https://github.com/Leonard0MF/aegis)
+
+### Podocare Flow
+Practice management system for podologists: scheduling, patient records and clinical history. Anamnesis forms are sent through a unique public link (shareable via WhatsApp), so patients fill everything in on their phone with no account. Backend and database on Supabase, with data protected by Row Level Security.<br/>
 `React` `TypeScript` `TanStack Router` `TanStack Query` `Supabase` `Tailwind` &nbsp;→&nbsp; [Live ↗](https://podocare-theta.vercel.app) · [Code ↗](https://github.com/Leonard0MF/podocare-flow)
 
-**05 — Aura Máxima**<br/>
-Immersive developer portfolio combining 3D, WebGL and interactive storytelling: Earth-from-space visualization, custom ocean and atmosphere shaders, day/night lighting, procedural stars and scroll-driven animation.<br/>
-`Next.js` `Three.js` `R3F` `GLSL` `GSAP`
+### Client websites · Elyra Studio
+Conversion-focused websites for small businesses.<br/>
+[Elyra ↗](https://elyras.vercel.app/) · [Espaço Lazuli ↗](https://espaco-lazuli.vercel.app/) · [Lita Podóloga ↗](https://lita-podologa.vercel.app/) &nbsp;·&nbsp; `Next.js` `React` `TypeScript` `Tailwind`
 
 <br/>
 
@@ -66,19 +70,15 @@ Automates public data gathering and intelligence analysis workflows. &nbsp;→&n
 
 <br/>
 
-## Currently focused on
+## Currently building
 
-- Advanced frontend architecture and performance
-- Web application security and penetration testing
-- Full-stack development and database-driven applications
-- WebGL, Three.js and GLSL
-- Building and scaling real-world products through Elyra Studio
+- **Aura Máxima**: immersive 3D portfolio with an Earth-from-space scene, custom ocean and atmosphere shaders, day/night lighting, procedural stars and scroll-driven storytelling. `Next.js` `Three.js` `R3F` `GLSL` `GSAP` *(in progress)*
 
 <br/>
 
 <div align="center">
 
-<img src="stats.svg" width="100%" alt="GitHub activity: contributions, current streak and longest streak" />
+<img src="stats.svg" width="100%" alt="GitHub activity" />
 
 <br/><br/>
 
