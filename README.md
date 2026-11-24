@@ -41,10 +41,10 @@ Practice management system for podologists: scheduling, patient records and anam
 ## Security labs
 
 **Mini Honeypot** &nbsp;`Python`<br/>
-Simulates and logs unauthorized network intrusion attempts in a controlled environment. &nbsp;→&nbsp; [Code ↗](https://github.com/Leonard0MF/mini-honeypot)
+Dependency-free TCP honeypot that logs the source IP, port and payload of every connection, including empty port-scan probes. Payloads are escaped so attackers can't forge log lines, with log rotation, per-connection timeouts and a cap on concurrent connections. &nbsp;→&nbsp; [Code ↗](https://github.com/Leonard0MF/mini-honeypot)
 
-**OSINT Automation Tool** &nbsp;`Python`<br/>
-Automates public data gathering and intelligence analysis workflows. &nbsp;→&nbsp; [Code ↗](https://github.com/Leonard0MF/osint-base)
+**OSINT Toolkit** &nbsp;`Python`<br/>
+CLI that collects public data from free APIs: IP geolocation, ASN and proxy/VPN/datacenter detection, WHOIS and DNS records, and GitHub account profiles. Interactive menu or direct commands with JSON output, plus unit tests that mock every API call. &nbsp;→&nbsp; [Code ↗](https://github.com/Leonard0MF/osint-base)
 
 <sub>All security work is done in controlled environments or on authorized targets only.</sub>
 
