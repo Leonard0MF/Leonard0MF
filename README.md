@@ -52,13 +52,13 @@ Automates public data gathering and intelligence analysis workflows. &nbsp;→&n
 
 ## Currently building
 
-**Aura Máxima**: immersive 3D portfolio with custom WebGL shaders and scroll-driven storytelling. `Three.js` `R3F` `GLSL` · *in progress*
+**Aura Máxima** *(in progress)*: immersive 3D portfolio with custom WebGL shaders and scroll-driven storytelling.
 
 <br/>
 
 <div align="center">
 
-<img src="stats.svg" width="100%" alt="GitHub activity" />
+<img src="stats.svg" width="100%" alt="Active projects in the last 30 days" />
 
 <br/><br/>
 

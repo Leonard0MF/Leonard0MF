@@ -2,8 +2,8 @@ name: Update GitHub stats
 
 on:
   schedule:
-    - cron: "17 * * * *"   # a cada hora
-  workflow_dispatch:         # botão "Run workflow" pra atualizar na hora
+    - cron: "17 */6 * * *"   # a cada 6 horas
+  workflow_dispatch:           # botão "Run workflow" pra atualizar na hora
   push:
     branches: [main]
     paths: ["scripts/**", ".github/workflows/update-stats.yml"]
@@ -30,9 +30,11 @@ jobs:
           # STATS_TOKEN (opcional) = token pessoal; sem ele usa o token padrão da Action
           GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
           USERNAME: ${{ github.repository_owner }}
+          # Repositórios públicos que não devem aparecer no card (owner/nome, separados por vírgula)
+          EXCLUDE: ""
         run: |
           node scripts/update-stats.mjs
-          test -s stats.svg || { echo "::error::stats.svg não foi gerado — confira se scripts/update-stats.mjs tem o código"; exit 1; }
+          test -s stats.svg || { echo "::error::stats.svg não foi gerado"; exit 1; }
 
       - name: Commit if changed
         run: |
