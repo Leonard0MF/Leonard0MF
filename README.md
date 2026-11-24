@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.svg" width="100%" alt="Léo Machmann — frontend engineer, full-stack developer, security" />
+<img src="banner.svg" width="100%" alt="Léo Machmann — full-stack developer, application security" />
 
 <br/>
 
