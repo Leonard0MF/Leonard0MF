@@ -4,7 +4,7 @@
 
 <br/>
 
-**[Elyra Studio ↗](https://github.com/ElyraStudio)** &nbsp;·&nbsp; **[LinkedIn ↗](https://www.linkedin.com/in/leonardo-machmann-francisco/)** &nbsp;·&nbsp; **[Portfolio ↗](https://elyras.vercel.app/)**
+**[LinkedIn ↗](https://www.linkedin.com/in/leonardo-machmann-francisco/)** &nbsp;·&nbsp; **[Aegis ↗](https://aegis-ten-zeta.vercel.app/)**
 
 </div>
 
@@ -12,11 +12,7 @@
 
 ## About
 
-I'm a developer focused on building **modern, performant and security-conscious web applications**.
-
-My work sits between frontend engineering, full-stack development, interactive experiences and cybersecurity: business platforms, SaaS products, 3D/WebGL interfaces and security tooling.
-
-Right now I'm building products and client solutions through **Elyra Studio**.
+Developer at **BUMP**, working on internal systems. I build fast, security-conscious web applications, and in my own time I build security tooling and play with 3D/WebGL.
 
 <br/>
 
@@ -30,7 +26,7 @@ Right now I'm building products and client solutions through **Elyra Studio**.
 
 <br/>
 
-## Selected work
+## Projects
 
 ### Aegis
 Domain security scanner that grades a site from 0 to 100 and tells you how to fix each finding: TLS, headers, cookies, email/DNS, known CVEs (OSV, NVD, CISA KEV), subdomain takeover and reputation. Active tests only run after the owner proves domain ownership, and the scanner itself is hardened against SSRF and DNS rebinding.<br/>
@@ -39,10 +35,6 @@ Domain security scanner that grades a site from 0 to 100 and tells you how to fi
 ### Podocare Flow
 Practice management system for podologists: scheduling, patient records and anamnesis forms sent by link, so patients fill them in on their phone with no account. Supabase backend with Row Level Security.<br/>
 `React` `TypeScript` `TanStack Router` `TanStack Query` `Supabase` `Tailwind` &nbsp;→&nbsp; [Live ↗](https://podocare-theta.vercel.app) · [Code ↗](https://github.com/Leonard0MF/podocare-flow)
-
-### Client websites · Elyra Studio
-Conversion-focused websites for small businesses.<br/>
-[Elyra ↗](https://elyras.vercel.app/) · [Espaço Lazuli ↗](https://espaco-lazuli.vercel.app/) · [Lita Podóloga ↗](https://lita-podologa.vercel.app/) &nbsp;·&nbsp; `Next.js` `React` `TypeScript` `Tailwind`
 
 <br/>
 
@@ -60,7 +52,7 @@ Automates public data gathering and intelligence analysis workflows. &nbsp;→&n
 
 ## Currently building
 
-- **Aura Máxima**: immersive 3D portfolio with custom WebGL shaders and scroll-driven storytelling. `Three.js` `R3F` `GLSL` *(in progress)*
+**Aura Máxima**: immersive 3D portfolio with custom WebGL shaders and scroll-driven storytelling. `Three.js` `R3F` `GLSL` · *in progress*
 
 <br/>
 
