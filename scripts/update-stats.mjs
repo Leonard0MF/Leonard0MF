@@ -8,6 +8,9 @@ const DAYS = 30;
 const MAX = 4;
 // Repositórios públicos que nunca devem aparecer (owner/name, separados por vírgula)
 const EXCLUDE = new Set([`${USER}/${USER}`, ...(process.env.EXCLUDE || "").split(",").map((s) => s.trim()).filter(Boolean)]);
+// Linha que agrupa todo o trabalho em repositórios privados (sem nomes)
+const PRIVATE_LABEL = process.env.PRIVATE_LABEL || "Private work";
+const PRIVATE_DESC = process.env.PRIVATE_DESC || "";
 const TZ = "America/Sao_Paulo";
 const OUT = new URL("../stats.svg", import.meta.url);
 const TEMPLATE = readFileSync(new URL("./stats.template.svg", import.meta.url), "utf8");
@@ -50,16 +53,17 @@ const fmtDate = (iso) => {
 };
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const cut = (s, n) => (s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s);
-const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
 
 function render(cc) {
   const all = cc.commitContributionsByRepository || [];
-  const pub = all
-    .filter((x) => !x.repository.isPrivate && !EXCLUDE.has(x.repository.nameWithOwner))
-    .sort((a, b) => b.contributions.totalCount - a.contributions.totalCount)
-    .slice(0, MAX);
   const priv = (cc.restrictedContributionsCount || 0) +
     all.filter((x) => x.repository.isPrivate).reduce((a, x) => a + x.contributions.totalCount, 0);
+  const rows = all
+    .filter((x) => !x.repository.isPrivate && !EXCLUDE.has(x.repository.nameWithOwner))
+    .map((x) => ({ name: x.repository.name, desc: x.repository.description, n: x.contributions.totalCount,
+      lang: x.repository.primaryLanguage, pushed: x.repository.pushedAt }));
+  if (priv > 0) rows.push({ name: PRIVATE_LABEL, desc: PRIVATE_DESC, n: priv, private: true });
+  const pub = rows.sort((a, b) => b.n - a.n).slice(0, MAX);
 
   const X0 = 64, X1 = 1136, TOP = 100, ROW = 92;
   const b = [];
@@ -71,24 +75,22 @@ function render(cc) {
     b.push(`<text x="${X0}" y="${TOP + 48}" class="r" font-size="16" fill="${C.sec}">No public commits in the last ${DAYS} days.</text>`);
   }
   pub.forEach((x, i) => {
-    const r = x.repository, y = TOP + i * ROW, n = x.contributions.totalCount;
-    const lang = r.primaryLanguage;
+    const y = TOP + i * ROW, n = x.n;
     b.push(`<line x1="${X0}" y1="${y}" x2="${X1}" y2="${y}" stroke="${C.line}"/>`);
-    b.push(`<text x="${X0}" y="${y + 40}" class="d" font-size="26" letter-spacing="-0.6" fill="${C.txt}">${esc(cut(r.name, 40))}</text>`);
-    if (r.description) b.push(`<text x="${X0}" y="${y + 68}" class="r" font-size="15" fill="${C.sec}">${esc(cut(r.description, 96))}</text>`);
-    b.push(`<text x="${X1}" y="${y + 40}" class="d" font-size="26" letter-spacing="-0.6" text-anchor="end" fill="${i === 0 ? C.acc : C.txt}">${n}<tspan class="r" font-size="15" letter-spacing="0" fill="${C.sec}" dx="6">${n === 1 ? "commit" : "commits"}</tspan></text>`);
-    const meta = `${lang ? `<tspan fill="${esc(lang.color || C.ter)}">●</tspan> ${esc(lang.name)} · ` : ""}pushed ${esc(fmtDate(r.pushedAt))}`;
+    b.push(`<text x="${X0}" y="${y + 40}" class="d" font-size="26" letter-spacing="-0.6" fill="${C.txt}">${esc(cut(x.name, 40))}</text>`);
+    if (x.desc) b.push(`<text x="${X0}" y="${y + 68}" class="r" font-size="15" fill="${C.sec}">${esc(cut(x.desc, 96))}</text>`);
+    const unit = x.private ? (n === 1 ? "contribution" : "contributions") : (n === 1 ? "commit" : "commits");
+    b.push(`<text x="${X1}" y="${y + 40}" class="d" font-size="26" letter-spacing="-0.6" text-anchor="end" fill="${i === 0 ? C.acc : C.txt}">${n}<tspan class="r" font-size="15" letter-spacing="0" fill="${C.sec}" dx="6">${unit}</tspan></text>`);
+    const meta = x.private
+      ? `<tspan fill="${C.ter}">●</tspan> private repositories`
+      : `${x.lang ? `<tspan fill="${esc(x.lang.color || C.ter)}">●</tspan> ${esc(x.lang.name)} · ` : ""}pushed ${esc(fmtDate(x.pushed))}`;
     b.push(`<text x="${X1}" y="${y + 68}" class="r" font-size="14" text-anchor="end" fill="${C.ter}">${meta}</text>`);
   });
 
-  let y = TOP + Math.max(1, pub.length) * ROW;
+  const y = TOP + Math.max(1, pub.length) * ROW;
   b.push(`<line x1="${X0}" y1="${y}" x2="${X1}" y2="${y}" stroke="${C.line}"/>`);
-  if (priv > 0) {
-    y += 40;
-    b.push(`<text x="${X0}" y="${y}" class="r" font-size="15" fill="${C.sec}">+ ${esc(plural(priv, "contribution"))} to private repositories in the same period</text>`);
-  }
   const H = y + 48;
-  const label = `Active projects in the last ${DAYS} days: ${pub.map((x) => x.repository.name).join(", ") || "none"}`;
+  const label = `Active projects in the last ${DAYS} days: ${pub.map((x) => x.name).join(", ") || "none"}`;
   return TEMPLATE.replaceAll("{{H}}", H).replaceAll("{{H1}}", H - 1).replace("{{LABEL}}", esc(label)).replace("<!--BODY-->", b.join("\n"));
 }
 

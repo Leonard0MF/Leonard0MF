@@ -32,6 +32,9 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           # Repositórios públicos que não devem aparecer no card (owner/nome, separados por vírgula)
           EXCLUDE: ""
+          # Linha única com a soma dos repositórios privados (nenhum nome de repo aparece)
+          PRIVATE_LABEL: "BUMP"
+          PRIVATE_DESC: "Internal systems: BUMP Assistência and BumpHub — full-stack, code review and app security."
         run: |
           node scripts/update-stats.mjs
           test -s stats.svg || { echo "::error::stats.svg não foi gerado"; exit 1; }
