@@ -12,16 +12,17 @@
 <text x="1136" y="168" class="r" font-size="14" text-anchor="end" fill="#5D6068"><tspan fill="#5D6068">●</tspan> private repositories</text>
 <line x1="64" y1="192" x2="1136" y2="192" stroke="#1E2025"/>
 <text x="64" y="232" class="d" font-size="26" letter-spacing="-0.6" fill="#EDEBE6">aegis</text>
-<text x="64" y="260" class="r" font-size="15" fill="#9A9DA4">Modern cyber threat intelligence dashboard built with Next.js, TypeScript and TailwindCSS.</text>
-<text x="1136" y="232" class="d" font-size="26" letter-spacing="-0.6" text-anchor="end" fill="#EDEBE6">15<tspan class="r" font-size="15" letter-spacing="0" fill="#9A9DA4" dx="6">commits</tspan></text>
+<text x="64" y="260" class="r" font-size="15" fill="#9A9DA4">Domain security scanner: TLS, headers, DNS/email, CVEs and attack surface, graded 0–100.</text>
+<text x="1136" y="232" class="d" font-size="26" letter-spacing="-0.6" text-anchor="end" fill="#EDEBE6">17<tspan class="r" font-size="15" letter-spacing="0" fill="#9A9DA4" dx="6">commits</tspan></text>
 <text x="1136" y="260" class="r" font-size="14" text-anchor="end" fill="#5D6068"><tspan fill="#3178c6">●</tspan> TypeScript · pushed Nov 24</text>
 <line x1="64" y1="284" x2="1136" y2="284" stroke="#1E2025"/>
 <text x="64" y="324" class="d" font-size="26" letter-spacing="-0.6" fill="#EDEBE6">podocare-flow</text>
+<text x="64" y="352" class="r" font-size="15" fill="#9A9DA4">Practice management for podologists: scheduling, patient records and anamnesis forms.</text>
 <text x="1136" y="324" class="d" font-size="26" letter-spacing="-0.6" text-anchor="end" fill="#EDEBE6">7<tspan class="r" font-size="15" letter-spacing="0" fill="#9A9DA4" dx="6">commits</tspan></text>
 <text x="1136" y="352" class="r" font-size="14" text-anchor="end" fill="#5D6068"><tspan fill="#3178c6">●</tspan> TypeScript · pushed Oct 28</text>
 <line x1="64" y1="376" x2="1136" y2="376" stroke="#1E2025"/>
 <text x="64" y="416" class="d" font-size="26" letter-spacing="-0.6" fill="#EDEBE6">mini-honeypot</text>
-<text x="64" y="444" class="r" font-size="15" fill="#9A9DA4">meus projetos </text>
+<text x="64" y="444" class="r" font-size="15" fill="#9A9DA4">Dependency-free Python TCP honeypot with injection-safe logging and rate limits.</text>
 <text x="1136" y="416" class="d" font-size="26" letter-spacing="-0.6" text-anchor="end" fill="#EDEBE6">4<tspan class="r" font-size="15" letter-spacing="0" fill="#9A9DA4" dx="6">commits</tspan></text>
 <text x="1136" y="444" class="r" font-size="14" text-anchor="end" fill="#5D6068"><tspan fill="#3572A5">●</tspan> Python · pushed Nov 24</text>
 <line x1="64" y1="468" x2="1136" y2="468" stroke="#1E2025"/>
