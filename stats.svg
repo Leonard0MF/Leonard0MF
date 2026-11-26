@@ -4,7 +4,7 @@
 <clipPath id="fr"><rect width="1200" height="516" rx="16"/></clipPath></defs>
 <g clip-path="url(#fr)"><rect width="1200" height="516" fill="#0C0D0F"/>
 <text x="64" y="64" class="m cap" fill="#C9F158">ACTIVE PROJECTS</text>
-<text x="1136" y="64" class="m cap" fill="#5D6068" text-anchor="end">LAST 30 DAYS · UPDATED NOV 25</text>
+<text x="1136" y="64" class="m cap" fill="#5D6068" text-anchor="end">LAST 30 DAYS · UPDATED NOV 26</text>
 <line x1="64" y1="100" x2="1136" y2="100" stroke="#1E2025"/>
 <text x="64" y="140" class="d" font-size="26" letter-spacing="-0.6" fill="#EDEBE6">BUMP</text>
 <text x="64" y="168" class="r" font-size="15" fill="#9A9DA4">Internal systems: BUMP Assistência and BumpHub — full-stack, code review and app security.</text>
@@ -13,7 +13,7 @@
 <line x1="64" y1="192" x2="1136" y2="192" stroke="#1E2025"/>
 <text x="64" y="232" class="d" font-size="26" letter-spacing="-0.6" fill="#EDEBE6">aura-maxima</text>
 <text x="1136" y="232" class="d" font-size="26" letter-spacing="-0.6" text-anchor="end" fill="#EDEBE6">44<tspan class="r" font-size="15" letter-spacing="0" fill="#9A9DA4" dx="6">commits</tspan></text>
-<text x="1136" y="260" class="r" font-size="14" text-anchor="end" fill="#5D6068"><tspan fill="#3178c6">●</tspan> TypeScript · pushed Nov 25</text>
+<text x="1136" y="260" class="r" font-size="14" text-anchor="end" fill="#5D6068"><tspan fill="#3178c6">●</tspan> TypeScript · pushed Nov 26</text>
 <line x1="64" y1="284" x2="1136" y2="284" stroke="#1E2025"/>
 <text x="64" y="324" class="d" font-size="26" letter-spacing="-0.6" fill="#EDEBE6">aegis</text>
 <text x="64" y="352" class="r" font-size="15" fill="#9A9DA4">Domain security scanner: TLS, headers, DNS/email, CVEs and attack surface, graded 0–100.</text>
